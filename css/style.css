@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    color: #1A4D2E;
+    text-decoration: none;
+    transition: 0.4s;
+}
+a:hover{
+    opacity: 0.3;
+}
+.logo{
+    width: 12vw;
+    height: 8vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #DDCFBD;
+    height: 10vh;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+}
+.navlist li{
+    font-size: 2vh;
+    letter-spacing: 4px;
+    margin-left: 30px;
+    font-weight: bold;
+}
