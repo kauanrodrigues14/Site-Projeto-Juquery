@@ -4,13 +4,22 @@
 
 }
 p{
+    color: white;
     font-size: 18px;
     text-align: justify;
+    padding: 20px;
 }
 a{
     color: #1A4D2E;
     text-decoration: none;
     transition: 0.4s;
+}
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: #1A4D2E;
+    text-align: center;
+
 }
 a:hover{
     opacity: 0.3;
@@ -83,28 +92,32 @@ h1{
     color: white;
 }
 .sobre-div{
+
+    justify-content: space-around;
     height: 700px;
     background-image: url('../img/Fundo.png');
     background-color: #DDCFBD;
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    align-items: center;
+    align-content: center;
 }
 .comecou{
     position: relative;
     grid-column: 1;
     width: 500px;
     height:400px;
-    padding-right: 10px;
-    border-right: 1px solid;
+    
+    padding-right: 60px;
+    margin-left: 40px;
+    border-right: 2px solid;
     border-right-color:#1A4D2E ;
 }
 .comecou::before,
 .comecou::after{
     content: "";
     position: absolute;
-    right: -4px;
+    right: -5px;
     width: 8px;
     height: 8px;
     background-color: #1A4D2E;
@@ -116,8 +129,36 @@ h1{
 .comecou::after{
     bottom: -4px;
 }
-h2{
-    padding: left;
-    align-items: center ;
+.trabalhamos{
+    position: relative;
+    grid-column: 2;
+    width: 500px;
+    height: 400px;
+    margin-left: -20px;
+    padding-right: 60px;
+    border-right: 2px solid;
+    border-right-color: #1A4D2E;
+}
+.trabalhamos::before,
+.trabalhamos::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 8px;
+    height: 8px;
+    background-color: #1A4D2E;
+    border-radius: 50%;
+}
 
+.trabalhamos::before{
+    top: -4px;
+}
+.trabalhamos::after{
+    bottom: -4px;
+}
+.futuro{
+    width: 500px;
+    height: 400px;
+    grid-column: 3;
+  
 }
