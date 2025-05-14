@@ -22,11 +22,7 @@ h2{
     text-align: center;
 
 }
-h3{
-    font-size: 40px;
-    color: white;
-    padding-top: 75px;
-}
+
 a:hover{
     opacity: 0.3;
 }
@@ -58,7 +54,7 @@ nav{
 .inicio-div{
     width: 100%;
     display: grid;
-    background-color: #DAC8A6;
+    background-color:rgba(218, 200, 166, 0.85);
     height: 800px;
 }
 .logo-inicio{
@@ -68,7 +64,7 @@ nav{
     margin-left: 200px;
     align-items: center center;
 }
-.box-inicio{
+.inicio-div .box{
     display: grid;
     width: 800px;
     height: 400px;
@@ -92,7 +88,6 @@ h1{
     text-align: center;
 
 }
-
 .texto-inicio{
     margin-top:-75px;
     width: 700px;
@@ -146,7 +141,13 @@ h1{
     place-items: center;
     
 }
-.juquery-box{
+.juquery-div h1{
+    
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+.juquery-div .box{
     display:flex;
     width: 1000px;
     height: 400px;
@@ -155,7 +156,7 @@ h1{
     border-width: 2px;
     border-color: #1A4D2E;
     background: #D1BB9E;
-    
+
     grid-row:2;
    
 }
@@ -164,4 +165,70 @@ h1{
     text-align: justify;
     width: 1000px;
     align-items: center ;
+}
+.tecnologias{
+    height: 900px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: max-content;
+    background-image: url(../img/Fundo\ Template.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.tecs-boxes{
+    grid-row: 2;
+    width: 1200;
+    height: 900px;
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+   
+    place-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    column-gap: 15px;
+    
+    
+
+
+}
+.tecs-boxes  h2{
+    margin-top: 10px;
+}
+
+.tec-box2, .tec-box5{
+    
+    grid-column: 2;
+}
+.tec-box3, .tec-box6{
+    
+    grid-column: 3;
+}
+
+.tec-box1, .tec-box2, .tec-box3{
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 40px;
+    background-color: rgba(209, 187, 158, 0.51);
+}
+.tec-box4,.tec-box5,.tec-box6{
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 40px;
+    background-color: rgba(209, 187, 158, 0.51);
+    margin-top:-200px ;
 }
