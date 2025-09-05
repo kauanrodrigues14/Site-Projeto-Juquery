@@ -98,7 +98,7 @@ h1{
     color: white;
 }
 .sobre-div{
-
+    filter: blur();
     justify-content: space-around;
     height: 700px;
     background-image: url('../img/Fundo.png');
@@ -109,7 +109,7 @@ h1{
     align-content: center;
 }
 .comecou{
-    
+    opacity:0;
     grid-column: 1;
     width: 500px;
     height:400px;
@@ -121,7 +121,7 @@ h1{
 }
 
 .trabalhamos{
-
+    opacity:0;
     grid-column: 2;
     width: 500px;
     height: 400px;
@@ -131,6 +131,7 @@ h1{
     border-right-color: #1A4D2E;
 }
 .futuro{
+    opacity:0;
     width: 500px;
     height: 400px;
     grid-column: 3;
@@ -236,4 +237,10 @@ h1{
     height: 2vh;
     color: white;
     text-align: center;
+}
+.animar {
+    opacity: 1;
+    transition: ease-in-out 2s;
+    
+
 }
